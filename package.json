@@ -7,6 +7,17 @@
     "type": "git",
     "url": "git+https://github.com/gallocss/gallo.git"
   },
+  "bugs": {
+    "url": "https://github.com/gallocss/gallo/issues"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/cleancss -o gallo.min.css gallo.css",
+    "build:check": "./node_modules/.bin/cleancss --source-map -o gallo.min.css gallo.css",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  },
   "keywords": [
     "css",
     "classless",

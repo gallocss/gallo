@@ -5,7 +5,7 @@
 
 A classless CSS framework with character. Drop in one stylesheet, write semantic HTML, get a beautiful result with three baked-in themes including the signature **Gallo** dark theme.
 
-- 🎨 Three themes — Light, Dark &  Gallo
+- 🎨 Three themes — Light, Dark & Gallo
 - 🏷️ Classless — pure semantic HTML
 - ⚡ Zero dependencies, zero build step for users
 - 📦 ~10 KB minified
@@ -22,13 +22,19 @@ A classless CSS framework with character. Drop in one stylesheet, write semantic
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gallocss/gallo/gallo.min.css">
 
 <!-- Pin to a version -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gallocss/gallo@1.0.1/gallo.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@gallocss/gallo@1.0.2/gallo.min.css">
 ```
 
 ### npm
 
 ```bash
 npm install @gallocss/gallo
+```
+
+### yarn
+
+```bash
+yarn add @gallocss/gallo
 ```
 
 Then in your HTML:
@@ -38,7 +44,7 @@ Then in your HTML:
 
 Or import in your CSS/JS bundler:
 ```css
-import "@gallocss/gallo/gallo.css";
+@import "@gallocss/gallo/gallo.css";
 ```
 
 ### Download manually
@@ -117,4 +123,4 @@ Tested on the latest stable versions of Chrome, Firefox, Safari, and Edge.
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](./LICENSE.md)

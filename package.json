@@ -1,6 +1,6 @@
 {
   "name": "@gallocss/gallo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A classless CSS framework with character.",
   "main": "gallo.css",
   "repository": {

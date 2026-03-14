@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A classless CSS framework with character.",
   "main": "gallo.css",
+  "files": [
+    "gallo.css",
+    "gallo.min.css"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gallocss/gallo.git"
@@ -16,6 +20,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "clean-css-cli": "^5.6.3"
   },
   "keywords": [

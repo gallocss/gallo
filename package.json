@@ -1,6 +1,6 @@
 {
   "name": "@gallocss/gallo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A classless CSS framework with character.",
   "main": "gallo.css",
   "files": [
@@ -15,13 +15,19 @@
     "url": "https://github.com/gallocss/gallo/issues"
   },
   "scripts": {
+    "lint": "stylelint gallo.css",
     "build": "./node_modules/.bin/cleancss -o gallo.min.css gallo.css",
     "build:check": "./node_modules/.bin/cleancss --source-map -o gallo.min.css gallo.css",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run lint && npm run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "npm publish --access public"
   },
   "devDependencies": {
     "@changesets/cli": "^2.30.0",
-    "clean-css-cli": "^5.6.3"
+    "clean-css-cli": "^5.6.3",
+    "stylelint": "^17.4.0",
+    "stylelint-config-standard": "^40.0.0"
   },
   "keywords": [
     "css",

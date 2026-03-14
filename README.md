@@ -1,6 +1,7 @@
 # 🐓 Gallo CSS
 
 [![npm version](https://img.shields.io/npm/v/@gallocss/gallo?color=e8931a)](https://www.npmjs.com/package/@gallocss/gallo)
+[![CI](https://github.com/gallocss/gallo/actions/workflows/ci.yml/badge.svg)](https://github.com/gallocss/gallo/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-MIT-e8931a)](./LICENSE.md)
 
 A classless CSS framework with character. Drop in one stylesheet, write semantic HTML, get a beautiful result with three baked-in themes including the signature **Gallo** dark theme.
@@ -99,7 +100,7 @@ All design tokens are CSS custom properties prefixed with `--g-`. Override any o
 | `--g-text` | Primary text color |
 | `--g-text-muted` | Secondary / muted text |
 | `--g-accent` | Accent color (links, buttons, focus) |
-| `--g-accent-fg` | Text on accent background |
+| `--g-accent-fg` | Text color on accent background |
 | `--g-accent-h` | Accent hover state |
 | `--g-focus` | Focus ring color (rgba) |
 | `--g-danger` | Destructive action color |
@@ -117,7 +118,12 @@ All design tokens are CSS custom properties prefixed with `--g-`. Override any o
 
 ## Browser support
 
-Tested on the latest stable versions of Chrome, Firefox, Safari, and Edge.
+| Browser | Minimum version |
+|---|---|
+| Chrome | 111+ |
+| Firefox | 113+ |
+| Safari | 16.2+ |
+| Edge | 111+ |
 
 ---
 

@@ -1,0 +1,29 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "value-no-vendor-prefix": null,
+    "no-duplicate-selectors": null,
+    "no-descending-specificity": null,
+    "value-keyword-case": [
+      "lower",
+      {
+        "ignoreKeywords": [
+          "Roboto",
+          "Oxygen",
+          "Ubuntu",
+          "Cantarell",
+          "Helvetica",
+          "Arial"
+        ]
+      }
+    ],
+    "declaration-property-value-no-unknown": [
+      true,
+      {
+        "ignoreProperties": { "-webkit-appearance": "/.*/" }
+      }
+    ],
+    "custom-property-pattern": "^g-"
+  }
+}
